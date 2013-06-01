@@ -1,0 +1,25 @@
+{
+    "name": "buttonlike",
+    "title": "jQuery Buttonlike Plugin",
+    "description": "A jQuery plugin that enables you to turn elements into functional, accessible buttons",
+    "keywords": [
+        "accessibility",
+        "click",
+        "button"
+    ],
+    "version": "1.0.2",
+    "author": {
+        "name": "Heydon Pickering"
+    },
+    "licenses": [
+        {
+            "type": "WTFPL",
+            "url": "http://sam.zoy.org/wtfpl/"
+        }
+    ],
+    "homepage": "http://www.heydonworks.com/article/accessible-buttons-jquery-plugin",
+    "demo": "http://www.heydonworks.com/article/accessible-buttons-jquery-plugin",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
