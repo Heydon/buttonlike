@@ -19,7 +19,7 @@ Let's turn a span with a class of <code>.controller-span</code> into a workable 
 
 Since we are using <code>aria-pressed</code> (via the "pressed" option) we must choose an initial state. In the above example, this is set to false. If the button is not a "toggle", simply leave this option to default to <code>null</code>. This example button only controls the one element (<code>#controlled-div</code>) but it is possible to control multiple elements by entering a value for the "controls" option as a space separated list.
 
-The generated markup for our span will look like the following. Naturally, the <code>aria-pressed</code> attribute toggles between true and false per click.
+The generated markup for our <code>&lt;span&gt;</code> will look like the following. Naturally, the <code>aria-pressed</code> attribute toggles between true and false per click.
 
     <span role="button" aria-controls="controlled-div" aria-pressed="false">click me!</span>
 	
