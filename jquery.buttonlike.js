@@ -1,5 +1,5 @@
 /*!
-* ButtonLike 1.1 (a jQuery plugin, obviously)
+* ButtonLike 1.0.2 (a jQuery plugin, obviously)
 * Copyright 2013, Heydon Pickering: http://www.heydonworks.com
 * Released under the WTFPL license - http://sam.zoy.org/wtfpl/
 */
