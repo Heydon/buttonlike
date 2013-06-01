@@ -25,4 +25,15 @@ The generated markup for our <code>&lt;span&gt;</code> will look like the follow
 	
 For more examples, refer to my blog post on the plugin: <a href="http://www.heydonworks.com/article/accessible-buttons-jquery-plugin">Accessible Buttons JQuery Plugin</a>.
 
+Options
+---------------
 
+There are only two options. All "buttonlike" buttons receive focus and keyboard control as standard. These options both default to null:
+
+    pressed: null,
+	controls: null
+
+Bad elements
+---------------
+
+Some elements really shouldn't be made into "buttons" at all. Of these, the most obvious are the grouping elements <code>ul, ol, menu, dl</code> and <code>table</code>. If you try to use buttonlike.js with these, it will refuse and write an error to the console. So there.
